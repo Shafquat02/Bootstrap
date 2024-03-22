@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstap</title>
+    <!-- css -->
+    <link rel="stylesheet" href="assests/css/style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+
+</head>
+<body>
+  <!-- nav -->
+     <nav class="navbar navbar-expand-lg bg-warning" data-bs-theme="dark">
+        <div class="container">
+            <a href="" class="navbar-brand">
+             <img src="assests/images/1.png" alt="" height="60" width="90">
+              Armany</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#click">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-nav justify-content-end" id="click">
+                <ul class="nav-bar nav ">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link active " href="#">features</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link active dropdown-toggle" href="#"  data-bs-toggle="dropdown">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Information</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">Disabled</a>
+                    </li>
+                    <a class="btn btn-warning" data-bs-toggle="offcanvas" href="#offcanvas">
+                      offcanvas
+                    </a>
+                    <button class="btn btn-warning" data-bs-toggle="modal"data-bs-target="#modal">modal</button>
+                    
+                    
+                  </ul>   
+    
+
+                
+                
+            </div>
+
+        </div>
+     </nav>
+     <!-- offcanvas -->
+    
+    <div class="offcanvas offcanvas-start" id="offcanvas" data-bs-theme="dark">
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h2>
+        <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit nostrum distinctio error molestiae ex voluptatem in ipsum incidunt neque! Veritatis odit, exercitationem eligendi aliquid soluta ad sit repellat consequatur.
+        </div>
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+            Read More
+          </button>
+          
+        </div>
+      </div>
+    </div>
+    <!-- modal -->
+    <div class="modal fade" id="modal"  >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2><modal-heading></h2>
+              <button class="btn-close"></button>
+
+          </div>
+          <div class="model-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptas sunt natus asperiores id corporis officiis aspernatur, qui ratione recusandae voluptatibus laudantium fuga corrupti dolore consectetur, excepturi, dolor veniam iste.
+            </p>
+
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-dismiss="modal">close
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+      
+
+     
+    
+
+
+
+</body>
+<!-- js script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+</html>
